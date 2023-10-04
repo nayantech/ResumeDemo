@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header{
+            min-width: 100%;
+            min-height: 100px;
+            border: 0px solid red;
+            background-color: black;
+            
+        }
+        .a{
+            width: 100px;
+            height: 100px;
+        }
+        nav{
+            display: flex;
+
+        }
+        
+        a{
+            text-decoration: none;
+            color: white;
+           
+        }
+        ul{
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: end;
+            /* text-align: end; */
+            /* align-items: flex-end; */
+        }
+        li{
+            color: white;
+            list-style: none;
+            padding: 35px;
+            
+        }
+        li:hover{
+            background-color: rgba(255, 255, 255, 0.305);
+        }
+        .c{
+            width: 100%;
+            height: 400px;
+            display: flex;
+            /* border: 1px solid red; */
+            background-image: url("mountains.jpg");
+            
+            
+        }
+        /* .c{
+            width: inherit;
+            height: inherit;
+            
+            background-size: contain;
+            background-repeat: no-repeat;
+        } */
+        .f{
+            /* border: 0px solid red; */
+            width: 50%;
+            height: 400px;
+        }
+        .b{
+            width: 100%;
+            height: 400px;
+        }
+        .d{
+            width: 80%;
+            height: 400px;
+            border: 0px solid red;
+            margin: 0 auto;
+            display: flex;
+            /* align-items: center; */
+            justify-content: space-between;
+           
+        }
+        .e{
+            width: 30%;
+            height: 400px;
+            /* border: 0px solid red; */
+            /* justify-content: center; */
+            text-align: justify;
+            font-size: xx-large;
+            /* color: white; */
+            /* background-color: black; */
+            /* align-items: center; */
+            padding: 30px;
+            line-height: 50px;
+            
+            
+        }
+        .g{
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="resume.jpeg" class="a">
+            <ul>
+                <li><a href="#">About me</a></li>
+                <li><a href="#">Resume</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Testonomial</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><input type="search" placeholder="search Here!" id="search">
+                    <label for="search">Search</label>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="c">
+        <div class="f">
+            <img src="skills.jpg" class="b">
+        </div>
+        <div class="f">
+            <img src="board.jpg" class="b">
+        </div>
+    </section>
+
+    <section class="c">
+        <section class="d">
+            
+            <div class="e">
+                <p > <span style="color: blue;">  My Story  </span>
+                    <br>
+                    Hello Everyone My Name is NayanKumar Gupta.
+                    and i'am softwere developer
+                </p>
+            </div>
+            <div class="e">
+                <img src="nayan imgae.png" class="g" title="Nayankumar gupta">
+            </div>
+            <div class="e">
+                <p> <span style="color: blue;">  Personal Information  </span>
+                    <br>
+                    Name:-NayanKumar Gupta
+                    <br>
+                    Age:-21
+                    <br>
+                    Phone:-9324375776
+                    <br>
+                    E-Mail:-nayankumarg29@gmail.com
+                    <br>
+                    Adderess:-Mumbai,India
+                </p>
+            </div>
+        </section>
+        
+    </section>
+</body>
+</html>
